@@ -1,0 +1,184 @@
+
+body {
+    background-color: rgb(248, 242, 242);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 2fr 5fr; /* Coloana stânga și coloana dreapta */
+    gap: 2rem;
+    background-color: white;
+}
+
+/* Stil pentru coloana stângă */
+.left-section {
+    background-color: #00324A;
+    color: white;
+    padding: 2rem 3rem;
+}
+
+
+.profile img {
+    
+    display: block;
+    margin: 0 auto;
+    width: 70%; /* dimensiunea imaginii */
+    border-radius: 50%;
+    border: 4px solid #002333;
+ 
+}
+
+.name {
+    font-size: 1,5rem;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+
+.specializare{
+    font-size: 0.7rem;
+    color:rgb(119, 118, 130);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.career {
+    font-size: 1.2rem;
+    color: #94D9EA;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #f7f7f7ec;
+    margin-top: 2rem;
+}
+
+.contact-info ul, .skills-section ul {
+    padding-top: 1rem;
+    list-style: none;
+}
+
+.contact-info ul li, .skills-section ul li {
+    margin-bottom: 0.5rem;
+}
+.contact-info i {
+    color: #eff3f6; /* culoare albastră */
+    font-size: 0,1px; /* dimensiunea iconiței */
+    margin-right: 0,5px; /* spațiu între iconiță și text */
+}
+
+
+/* Stil pentru secțiunea Skills */
+.progress-bar {
+    background-color: #2f81ed5b;
+    height: 0.4rem;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #2D9CDB;
+    border-radius: 12px;
+}
+
+.mo-progress { width: 100%; }
+.ap-progress { width: 50%; }
+.c-progress { width: 65%; }
+.sq-progress { width: 80%; }
+.html-progress { width: 85%; }
+.wo-progress { width: 90%; }
+
+
+
+/* Stil pentru secțiunea Language */
+.progress-bar {
+    background-color: #2f81ed5b;
+    height: 0.4rem;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #2D9CDB;
+    border-radius: 12px;
+}
+
+.ro-progress { width: 100%; }
+.en-progress { width: 80%; }
+
+
+/* Stil pentru coloana dreaptă */
+.right-section {
+    background-color: #f7f7f7;
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    color: #2F80ED;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.right-title::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 0.2rem;
+    background-color: #ccc;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.para {
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Stil pentru timeline */
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.tl-title {
+    font-size: 1.3rem;
+    color: #13516d;
+    text-transform: uppercase;
+}
+
+.tl-title-2 {
+    font-size: 1.3rem;
+    color: #2D9CDB;
+    text-transform: uppercase;
+}
+
+.tl-content {
+    border-left: 1px solid #ccc;
+    padding-left: 1rem;
+    position: relative;
+}
+
+
